@@ -9,10 +9,11 @@
     "test": "jest",
     "test/watch": "jest --watch",
     "lint": "eslint . --ext .ts",
+    "test/lint": "npm run test && npm run lint",
     "build/esm": "tsc -p tsconfig.esm.json",
     "build/cjs": "tsc -p tsconfig.cjs.json",
     "build": "npm run build/esm && npm run build/cjs",
-    "check-publish": "npx pkgfiles",
+    "publish/check-files": "npx pkgfiles",
     "publish": "npm run publish"
   },
   "repository": {

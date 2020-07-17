@@ -1,3 +1,1 @@
-const x = (x: string): string => x
-
-export default x
+export * from './3d'
