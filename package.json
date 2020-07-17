@@ -1,0 +1,41 @@
+{
+  "name": "easy-geometry",
+  "version": "0.0.1",
+  "description": "Geometric functions in TypeScript and JavaScript (ES and Modules)",
+  "main": "lib/cjs/index.js",
+  "module": "lib/esm/index.js",
+  "files": ["lib/"],
+  "scripts": {
+    "test": "jest",
+    "test/watch": "jest --watch",
+    "lint": "eslint . --ext .ts",
+    "build/esm": "tsc -p tsconfig.esm.json",
+    "build/cjs": "tsc -p tsconfig.cjs.json",
+    "build": "npm run build/esm && npm run build/cjs",
+    "check-publish": "npx pkgfiles",
+    "publish": "npm run publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristopherBilg/easy-geometry.git"
+  },
+  "keywords": [
+    "geometry",
+    "geometric"
+  ],
+  "author": "CRB",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChristopherBilg/easy-geometry/issues"
+  },
+  "homepage": "https://github.com/ChristopherBilg/easy-geometry#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.4",
+    "@typescript-eslint/eslint-plugin": "^3.6.1",
+    "@typescript-eslint/parser": "^3.6.1",
+    "eslint": "^7.4.0",
+    "jest": "^26.1.0",
+    "ts-jest": "^26.1.3",
+    "typescript": "^3.9.7"
+  }
+}
