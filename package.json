@@ -1,6 +1,6 @@
 {
   "name": "easy-geometry",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Geometric functions in TypeScript and JavaScript (ES and Modules)",
   "main": "lib/cjs/index.js",
   "module": "lib/esm/index.js",
@@ -13,8 +13,10 @@
     "build/esm": "tsc -p tsconfig.esm.json",
     "build/cjs": "tsc -p tsconfig.cjs.json",
     "build": "npm run build/esm && npm run build/cjs",
+    "clean": "rm -rf ./lib/",
     "publish/check-files": "npx pkgfiles",
-    "publish": "npm run publish"
+    "check-license": "npx license-checker --production --summary",
+    "publish": "npm run clean && npm run build && npm publish"
   },
   "repository": {
     "type": "git",
