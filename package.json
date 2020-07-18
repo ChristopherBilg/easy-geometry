@@ -1,6 +1,6 @@
 {
   "name": "easy-geometry",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Geometric functions in TypeScript and JavaScript (ES and Modules)",
   "main": "lib/cjs/index.js",
   "module": "lib/esm/index.js",
