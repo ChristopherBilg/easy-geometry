@@ -1,0 +1,26 @@
+2D
+
+regular polygon
+circle
+ellipse
+parabolic segment
+
+
+
+
+
+3D
+
+rectangular parallelepiped
+prism
+pyramid
+regular polyhedron
+cylinder
+ellipoid
+circular torus
+spherical polygon
+
+
+- Add Typescript documentation to the src/**/*.ts files
+- Unit test 'all the things'!
+- finalize naming before release
