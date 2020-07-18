@@ -5,12 +5,9 @@ regular polygon
 3D
 
 regular polyhedron
-ellipoid
-circular torus
-spherical polygon
 
 
 - unfinished 'TODO's in project
 - Add Typescript documentation to the src/**/*.ts files
 - Unit test 'all the things'!
-- finalize naming before release
+- finalize naming/standardize naming before release
