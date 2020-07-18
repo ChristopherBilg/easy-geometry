@@ -59,7 +59,8 @@ describe('3D Sphere Tests', () => {
     test('surface area should be correct given -5, 5 as input', () => expect(sphere.SphereSegmentSA(-5, 5)).toBe(-157.07963267948966))
   })
 
-  describe('Lune (TODO)', () => {
-    test('TODO TODO TODO', () => expect(true).toBe(true))
+  // TODO
+  describe('Lune', () => {
+    //
   })
 })
