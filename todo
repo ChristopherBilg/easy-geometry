@@ -14,6 +14,7 @@ circular torus
 spherical polygon
 
 
+- unfinished 'TODO's in project
 - Add Typescript documentation to the src/**/*.ts files
 - Unit test 'all the things'!
 - finalize naming before release
