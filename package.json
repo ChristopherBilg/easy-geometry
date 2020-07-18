@@ -13,8 +13,10 @@
     "build/esm": "tsc -p tsconfig.esm.json",
     "build/cjs": "tsc -p tsconfig.cjs.json",
     "build": "npm run build/esm && npm run build/cjs",
+    "clean": "rm -rf ./lib/",
     "publish/check-files": "npx pkgfiles",
-    "publish": "npm run publish"
+    "check-license": "npx license-checker --production --summary",
+    "publish": "npm run clean && npm run publish"
   },
   "repository": {
     "type": "git",
