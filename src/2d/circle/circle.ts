@@ -7,7 +7,7 @@ export const CircleArcLengthFromTheta = (radius: number, theta: number): number 
 export const CircleArcLengthFromAlpha = (radius: number, alpha: number): number => radius * alpha * (Math.PI / 180)
 
 // Segment
-// TODO
+// TODO (finish segment)
 
 // Sector
 export const CircleSectorAreaFromArcLength = (radius: number, arcLength: number): number => radius * arcLength / 2
