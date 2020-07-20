@@ -12,7 +12,7 @@
     "test/lint": "npm run test && npm run lint",
     "build/esm": "tsc -p tsconfig.esm.json",
     "build/cjs": "tsc -p tsconfig.cjs.json",
-    "build": "npm run build/esm && npm run build/cjs",
+    "build": "npm run clean && npm run build/esm && npm run build/cjs",
     "clean": "rm -rf ./lib/",
     "publish/check-files": "npx pkgfiles",
     "check-license": "npx license-checker --production --summary",
